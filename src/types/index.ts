@@ -47,13 +47,13 @@ export interface Student {
   }
   
   export interface DashboardStats {
-    total_students: number;
+    // total_students: number;
     today_sessions: number;
     recent_events: StudentEvent[];
-    statistics: {
-      active_students: number;
-      total_events: number;
-    };
+    // statistics: {
+    //   active_students: number;
+    //   total_events: number;
+    // };
   }
   
   export interface AuthResponse {

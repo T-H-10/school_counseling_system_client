@@ -30,7 +30,7 @@ export default function LoginPage() {
           {/* Header */}
           <div className="space-y-3 text-center">
             <div className="mx-auto h-16 w-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white">
-              <span className="text-2xl font-bold">ס</span>
+              <span className="text-2xl font-bold">לוגו</span>
             </div>
             <h1 className="text-3xl font-bold text-foreground">מערכת יועץ בית ספר</h1>
             <p className="text-muted-foreground">התחברות ליועץ</p>
