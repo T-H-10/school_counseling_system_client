@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import ProtectedRoute from './components/ProtectedRoute';
 import DashboardPage from './pages/DashboardPage';
 import LoginPage from './pages/LoginPage';
+import StudentsPage from './pages/StudentsPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -21,7 +22,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route element={<ProtectedRoute />}>
             <Route path="/" element={<DashboardPage />} />
-            {/* <Route path="/students" element={<StudentsPage />} /> */}
+            <Route path="/students" element={<StudentsPage />} />
             {/* <Route path="/student/:id" element={<StudentProfilePage />} /> */}
             {/* <Route path="/calendar" element={<CalendarPage />} /> */}
           </Route>

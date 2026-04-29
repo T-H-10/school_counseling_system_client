@@ -7,6 +7,7 @@ export interface Student {
     mother_phone?: string;
     father_name?: string;
     father_phone?: string;
+    school?: number;
     created_at: string;
   }
   
